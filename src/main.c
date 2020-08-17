@@ -482,7 +482,7 @@ int main(int argc, char *argv[]) {
 	}
 	
 	exit:
-		sceKernelDelayThread(1 * 1000 * 1000); //wait 3 seconds
+		sceKernelDelayThread(1 * 1000 * 1000); //wait 1 second
 		printf("\n\nPress X to exit..");
 		do {
 			sceCtrlPeekBufferPositive(0, &pad, 1);
@@ -491,7 +491,7 @@ int main(int argc, char *argv[]) {
 		return 0;
 	
 	exit_confirm:
-		sceKernelDelayThread(1 * 1000 * 1000); //wait 1 seconds
+		sceKernelDelayThread(1 * 1000 * 1000); //wait 1 second
 		printf("\n\nPress X to reboot..");
 		do {
 			sceCtrlPeekBufferPositive(0, &pad, 1);
