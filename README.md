@@ -1,5 +1,5 @@
 # vita-PKGEnabler
-A small tool to re-enable the built-in Package Installer.
+A small tool to create a Package Installer bubble and re-enable its functionality via plugin.
 
 ![ref0](https://github.com/Freakler/vita-PKGEnabler/raw/master/capture_000.jpg)
 
